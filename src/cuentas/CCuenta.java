@@ -1,11 +1,20 @@
 package cuentas;
 
+/** Clase que representa una cuenta bancaria
+ * @version 1.0
+ */
 public class CCuenta {
 
-
+    /*Nombre propietario cuenta*/
     private String nombre;
+    
+    /*Número de cuenta*/
     private String cuenta;
+    
+    /*Saldo disponible*/
     private double saldo;
+    
+    /*Tipo de interés */
     private double tipoInterés;
 
     public String getNombre() {
